@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #F5F5DC;
+}
+
+header h1{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+header ul > li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+hr{
+    border: 0;
+    height: 10px;
+    background-image: url("img/hr.gif");
+}
+
+article img.left {
+    float: left;
+    margin-right: 10px;
+}
+
+article img.right {
+    float: right;
+}
+
+.gallery:first-of-type {
+    margin-left: 0;
+}
+
+.gallery:last-of-type {
+    margin-left: 0;
+}
+
+.gallery {
+    margin-left: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 300px;
+    margin: 10px 0;
+    background: #F5F5DC;
+    border: none;
+}
+
+input[type="submit"], input[type="button"]{
+    width: 150px;
+}
+
+input[type="submit"]{
+    margin-left: 122px;
+}
+
+input[type="text"]{
+    margin-left: 75px;
+}
+
+input[type="email"]{
+    margin-left: 68px;
+}
+
+textarea{
+    height: 150px;
+    margin-left: 50px;
+}
+
+.center{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.end {
+    text-align: end;
+}
+
+.weblinks{
+    column-count: 2;
+    margin-bottom: 40px;
+}
+
+.label-left{
+    float: left;
+    margin-top: 5px;
+}
